@@ -11,8 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Vipin Singh </span>
             from <span className="purple"> Jhansi, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
+            {/* I am currently employed as a software developer at Hagging Panda.
+            <br /> */}
             I have completed Integrated Bachelor of Technology in Computer Science and Engineering at Mansarovar Global University
             Bhopal.
             <br />
@@ -21,13 +21,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Competitive Gamer
             </li>
             <li className="about-activity">
               <ImPointRight /> Trading
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Tech Geek
             </li>
           </ul>
 
